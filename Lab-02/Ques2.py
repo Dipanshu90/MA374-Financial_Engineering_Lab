@@ -155,8 +155,6 @@ def main():
   plot_r()
   plot_sigma()
   plot_M()
-  
-  # Execution of all the above functions may take a lot of time. To run specific ones, uncomment the rest function calls
 
 
 if __name__=="__main__":
