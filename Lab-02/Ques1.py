@@ -22,7 +22,7 @@ def Binomial_model(S0, K, T, M, r, sigma, set):
     d = np.exp(-sigma*np.sqrt(t) + (r - 0.5*sigma*sigma)*t)
 
   R = np.exp(r*t)
-  p = (R - d)/(u - d);
+  p = (R - d)/(u - d)
   cond = no_arbitrage(u, d, r, t)
 
   if cond:
