@@ -1,17 +1,7 @@
-"""
-Kindly install these libraries before executing this code:
-  1. numpy
-  2. matplotlib
-"""
-
 import numpy as np
 import math
 import matplotlib.pyplot as plt
 import random
-
-# if using a Jupyter notebook, kindly uncomment the following line:
-# %matplotlib inline
-
 
 def cir_model(beta, mu, sigma, r, t, T_list):
   Yield = []
